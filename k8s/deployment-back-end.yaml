@@ -15,7 +15,7 @@ spec:
         app: birds-app-back-end-lam2mo
     spec:
       containers:
-        - image: 'ghcr.io/lam2mo/birds-app-back-end:447a697a83d7b66588c46b07181086a2bfd0ff79'
+        - image: 'ghcr.io/lam2mo/birds-app-back-end:3dde4cc394e692bda6d5b5d638dd6395b521fc27'
           name: birds-back-front-end
           ports:
             - containerPort: 8080
